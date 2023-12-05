@@ -1,0 +1,16 @@
+{
+  "name": "node-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "start": "node -r ts-node/register",
+    "plop": "plop",
+    "day": "plop day"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.2",
+    "plop": "^4.0.0",
+    "prettier": "^3.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  }
+}
