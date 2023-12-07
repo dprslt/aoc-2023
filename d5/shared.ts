@@ -1,4 +1,4 @@
-type MappingGroup = {
+export type MappingGroup = {
   from: EntityKeys;
   to: EntityKeys;
   mapping: Array<{
@@ -8,7 +8,7 @@ type MappingGroup = {
   }>;
 };
 
-type Game = {
+export type Game = {
   seeds: Array<number>;
   mappingsGroups: Array<MappingGroup>;
 };
@@ -69,7 +69,7 @@ const filterOrder = [
   "location",
 ];
 
-type EntityKeys =
+export type EntityKeys =
   | "seed"
   | "soil"
   | "fertilizer"

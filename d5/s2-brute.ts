@@ -17,6 +17,7 @@ async function run(filename: string) {
   for (let index = 0; index < game.seeds.length; index += 2) {
     const firstSeed = game.seeds[index];
     const windowRange = game.seeds[index + 1];
+    console.log("Currently processing", firstSeed, "+", windowRange);
 
     for (let range = 0; range < windowRange; range++) {
       const newSeed = firstSeed + range;
@@ -24,6 +25,8 @@ async function run(filename: string) {
 
       if (smallestRun === null || result.location < smallestRun.location) {
         smallestRun = result;
+        console.log("Smallest value found");
+        console.log(result);
       }
     }
   }

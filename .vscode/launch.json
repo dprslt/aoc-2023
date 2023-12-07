@@ -13,13 +13,63 @@
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"
-    }
+    },
     {
       "type": "node",
-      "name": "Day 5 - Step 2",
+      "name": "Day 5 - Step 2 BRUTEFORCE",
       "request": "launch",
       "runtimeExecutable": "yarn",
-      "args": ["start", "./d5/s2.ts"],
+      "args": ["start", "./d5/s2-brute.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "name": "Day 5 - Step 2 SMART",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "args": ["start", "./d5/s2-smart.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "name": "Day 6 - Step 1",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "args": ["start", "./d6/s1.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "name": "Day 6 - Step 2",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "args": ["start", "./d6/s2.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "name": "Day 7 - Step 1",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "args": ["start", "./d7/s1.ts"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "internalConsoleOptions": "neverOpen"
+    },
+    {
+      "type": "node",
+      "name": "Day 7 - Step 2",
+      "request": "launch",
+      "runtimeExecutable": "yarn",
+      "args": ["start", "./d7/s2.ts"],
       "cwd": "${workspaceFolder}",
       "console": "integratedTerminal",
       "internalConsoleOptions": "neverOpen"

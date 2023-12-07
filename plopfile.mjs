@@ -25,7 +25,7 @@ export default function (plop) {
       },
       {
         type: "add",
-        path: "d{{day}}/input.ts",
+        path: "d{{day}}/input.txt",
       },
     ], // array of actions
   });
